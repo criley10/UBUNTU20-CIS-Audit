@@ -50,11 +50,11 @@ ubuntu20cis_rule_1_1_9: true
 ubuntu20cis_rule_1_1_10: false
 ubuntu20cis_rule_1_1_11: true
 ubuntu20cis_rule_1_1_12: true
-ubuntu20cis_rule_1_1_13: true
+ubuntu20cis_rule_1_1_13: false
 ubuntu20cis_rule_1_1_14: false
 ubuntu20cis_rule_1_1_15: false
 ubuntu20cis_rule_1_1_16: false
-ubuntu20cis_rule_1_1_17: true
+ubuntu20cis_rule_1_1_17: false
 ubuntu20cis_rule_1_1_18: false
 ubuntu20cis_rule_1_1_19: true
 ubuntu20cis_rule_1_1_20: true
@@ -95,7 +95,7 @@ ubuntu20cis_rule_1_9: true
 
 ubuntu20cis_rule_2_1_1_1: true
 ubuntu20cis_rule_2_1_1_2: true
-ubuntu20cis_rule_2_1_1_3: true
+ubuntu20cis_rule_2_1_1_3: false
 ubuntu20cis_rule_2_1_1_4: true
 ubuntu20cis_rule_2_1_2: true
 ubuntu20cis_rule_2_1_3: true
@@ -200,7 +200,7 @@ ubuntu20cis_rule_4_2_1_2: true
 ubuntu20cis_rule_4_2_1_3: true
 ubuntu20cis_rule_4_2_1_4: true
 ubuntu20cis_rule_4_2_1_5: true
-ubuntu20cis_rule_4_2_1_6: true
+ubuntu20cis_rule_4_2_1_6: false
 ubuntu20cis_rule_4_2_2_1: true
 ubuntu20cis_rule_4_2_2_2: true
 ubuntu20cis_rule_4_2_2_3: true
