@@ -47,15 +47,15 @@ ubuntu20cis_rule_1_1_6: true
 ubuntu20cis_rule_1_1_7: true
 ubuntu20cis_rule_1_1_8: true
 ubuntu20cis_rule_1_1_9: true
-ubuntu20cis_rule_1_1_10: false
-ubuntu20cis_rule_1_1_11: false
-ubuntu20cis_rule_1_1_12: false
-ubuntu20cis_rule_1_1_13: false
-ubuntu20cis_rule_1_1_14: false
-ubuntu20cis_rule_1_1_15: false
-ubuntu20cis_rule_1_1_16: false
-ubuntu20cis_rule_1_1_17: false
-ubuntu20cis_rule_1_1_18: false
+ubuntu20cis_rule_1_1_10: true
+ubuntu20cis_rule_1_1_11: true
+ubuntu20cis_rule_1_1_12: true
+ubuntu20cis_rule_1_1_13: true
+ubuntu20cis_rule_1_1_14: true
+ubuntu20cis_rule_1_1_15: true
+ubuntu20cis_rule_1_1_16: true
+ubuntu20cis_rule_1_1_17: true
+ubuntu20cis_rule_1_1_18: true
 ubuntu20cis_rule_1_1_19: true
 ubuntu20cis_rule_1_1_20: true
 ubuntu20cis_rule_1_1_21: true
@@ -69,19 +69,19 @@ ubuntu20cis_rule_1_3_2: true
 ubuntu20cis_rule_1_4_1: true
 ubuntu20cis_rule_1_4_2: true
 ubuntu20cis_rule_1_4_3: true
-ubuntu20cis_rule_1_4_4: false
+ubuntu20cis_rule_1_4_4: true
 ubuntu20cis_rule_1_5_1: true
-ubuntu20cis_rule_1_5_2: false
+ubuntu20cis_rule_1_5_2: true
 ubuntu20cis_rule_1_5_3: true
-ubuntu20cis_rule_1_5_4: false
+ubuntu20cis_rule_1_5_4: true
 
 ubuntu20cis_rule_1_6_1_1: true
 ubuntu20cis_rule_1_6_1_2: true
-ubuntu20cis_rule_1_6_1_3: false
+ubuntu20cis_rule_1_6_1_3: true
 ubuntu20cis_rule_1_6_1_4: true
 ubuntu20cis_rule_1_7_1: true
 ubuntu20cis_rule_1_7_2: true
-ubuntu20cis_rule_1_7_3: false
+ubuntu20cis_rule_1_7_3: true
 ubuntu20cis_rule_1_7_4: true
 ubuntu20cis_rule_1_7_5: true
 ubuntu20cis_rule_1_7_6: true
@@ -95,7 +95,7 @@ ubuntu20cis_rule_1_9: true
 
 ubuntu20cis_rule_2_1_1_1: true
 ubuntu20cis_rule_2_1_1_2: true
-ubuntu20cis_rule_2_1_1_3: false
+ubuntu20cis_rule_2_1_1_3: true
 ubuntu20cis_rule_2_1_1_4: true
 ubuntu20cis_rule_2_1_2: true
 ubuntu20cis_rule_2_1_3: true
@@ -110,7 +110,7 @@ ubuntu20cis_rule_2_1_11: true
 ubuntu20cis_rule_2_1_12: true
 ubuntu20cis_rule_2_1_13: true
 ubuntu20cis_rule_2_1_14: true
-ubuntu20cis_rule_2_1_15: false
+ubuntu20cis_rule_2_1_15: true
 ubuntu20cis_rule_2_1_16: true
 ubuntu20cis_rule_2_1_17: true
 ubuntu20cis_rule_2_2_1: true
@@ -119,7 +119,7 @@ ubuntu20cis_rule_2_2_3: true
 ubuntu20cis_rule_2_2_4: true
 ubuntu20cis_rule_2_2_5: true
 ubuntu20cis_rule_2_2_6: true
-ubuntu20cis_rule_2_3: false # Manual
+ubuntu20cis_rule_2_3: true # Manual
 
 # Section 3 rules
 ubuntu20cis_rule_3_1_1: true
@@ -142,11 +142,11 @@ ubuntu20cis_rule_3_4_4: true
 # UFW
 ubuntu20cis_rule_3_5_1_1: true
 ubuntu20cis_rule_3_5_1_2: true
-ubuntu20cis_rule_3_5_1_3: false # Verified
-ubuntu20cis_rule_3_5_1_4: false # Verified
-ubuntu20cis_rule_3_5_1_5: false # Manual
-ubuntu20cis_rule_3_5_1_6: false # Manual
-ubuntu20cis_rule_3_5_1_7: false # Manual
+ubuntu20cis_rule_3_5_1_3: true # Verified
+ubuntu20cis_rule_3_5_1_4: true # Verified
+ubuntu20cis_rule_3_5_1_5: true # Manual
+ubuntu20cis_rule_3_5_1_6: true # Manual
+ubuntu20cis_rule_3_5_1_7: true # Manual
 # NFTables
 ubuntu20cis_rule_3_5_2_1: true
 ubuntu20cis_rule_3_5_2_2: true
@@ -174,8 +174,8 @@ ubuntu20cis_rule_3_5_3_3_4: true
 # Section 4 rules
 ubuntu20cis_rule_4_1_1_1: true
 ubuntu20cis_rule_4_1_1_2: true
-ubuntu20cis_rule_4_1_1_3: false
-ubuntu20cis_rule_4_1_1_4: false
+ubuntu20cis_rule_4_1_1_3: true
+ubuntu20cis_rule_4_1_1_4: true
 ubuntu20cis_rule_4_1_2_1: true
 ubuntu20cis_rule_4_1_2_2: true
 ubuntu20cis_rule_4_1_2_3: true
@@ -191,7 +191,7 @@ ubuntu20cis_rule_4_1_11: true
 ubuntu20cis_rule_4_1_12: true
 ubuntu20cis_rule_4_1_13: true
 ubuntu20cis_rule_4_1_14: true
-ubuntu20cis_rule_4_1_15: false # Typo in template
+ubuntu20cis_rule_4_1_15: true # Typo in template
 ubuntu20cis_rule_4_1_16: true
 ubuntu20cis_rule_4_1_17: true
 ubuntu20cis_rule_4_2_1: true
@@ -200,11 +200,11 @@ ubuntu20cis_rule_4_2_1_2: true
 ubuntu20cis_rule_4_2_1_3: true
 ubuntu20cis_rule_4_2_1_4: true
 ubuntu20cis_rule_4_2_1_5: true
-ubuntu20cis_rule_4_2_1_6: false
+ubuntu20cis_rule_4_2_1_6: true
 ubuntu20cis_rule_4_2_2_1: true
 ubuntu20cis_rule_4_2_2_2: true
 ubuntu20cis_rule_4_2_2_3: true
-ubuntu20cis_rule_4_2_3: false
+ubuntu20cis_rule_4_2_3: true
 ubuntu20cis_rule_4_3: true
 ubuntu20cis_rule_4_4: true
 
@@ -244,23 +244,23 @@ ubuntu20cis_rule_5_3_20: true
 ubuntu20cis_rule_5_3_21: true
 ubuntu20cis_rule_5_3_22: true
 ubuntu20cis_rule_5_4_1: true
-ubuntu20cis_rule_5_4_2: false
+ubuntu20cis_rule_5_4_2: true
 ubuntu20cis_rule_5_4_3: true
 ubuntu20cis_rule_5_4_4: true
 ubuntu20cis_rule_5_5_1_1: true
-ubuntu20cis_rule_5_5_1_2: false
+ubuntu20cis_rule_5_5_1_2: true
 ubuntu20cis_rule_5_5_1_3: true
 ubuntu20cis_rule_5_5_1_4: true
 ubuntu20cis_rule_5_5_1_5: true
 ubuntu20cis_rule_5_5_2: true
 ubuntu20cis_rule_5_5_3: true
-ubuntu20cis_rule_5_5_4: false
+ubuntu20cis_rule_5_5_4: true
 ubuntu20cis_rule_5_5_5: true
 ubuntu20cis_rule_5_6: true
 ubuntu20cis_rule_5_7: true
 
 # Section 6
-ubuntu20cis_rule_6_1_1: false # Manual
+ubuntu20cis_rule_6_1_1: true # Manual
 ubuntu20cis_rule_6_1_2: true
 ubuntu20cis_rule_6_1_3: true
 ubuntu20cis_rule_6_1_4: true
@@ -272,8 +272,8 @@ ubuntu20cis_rule_6_1_9: true
 ubuntu20cis_rule_6_1_10: true
 ubuntu20cis_rule_6_1_11: true
 ubuntu20cis_rule_6_1_12: true
-ubuntu20cis_rule_6_1_13: false
-ubuntu20cis_rule_6_1_14: false
+ubuntu20cis_rule_6_1_13: true
+ubuntu20cis_rule_6_1_14: true
 
 ubuntu20cis_rule_6_2_1: true
 ubuntu20cis_rule_6_2_2: true
