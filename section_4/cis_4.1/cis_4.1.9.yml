@@ -14,8 +14,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.9
+      CIS_ID: 4.1.9
   auditd_perms_live:
     title: 4.1.9 | L2 | Ensure discretionary access control permission modification events are collected | Live
     exec: auditctl -l | grep perm_mod
@@ -30,6 +29,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.9
+      CIS_ID: 4.1.9
 {{ end }}

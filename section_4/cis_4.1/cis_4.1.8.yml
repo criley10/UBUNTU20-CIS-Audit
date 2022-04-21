@@ -11,8 +11,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.8
+      CIS_ID: 4.1.8
   auditd_session_live:
     title: 4.1.8 | L2 | Ensure session initiation information is collected | Live
     exec: "auditctl -l | grep -E '(session|logins)'"
@@ -24,6 +23,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.8
+      CIS_ID: 4.1.8
 {{ end }}

@@ -6,8 +6,7 @@ kernel-param:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.6
+      CIS_ID: 3.3.6
 command:
   ipv4_ignore_bogus:
     title: 3.3.6 | L1 | Ensure bogus ICMP responses are ignored | ignore bogus icmp conf
@@ -21,6 +20,5 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.6
+      CIS_ID: 3.3.6
 {{ end }}

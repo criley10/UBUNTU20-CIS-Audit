@@ -13,20 +13,16 @@ command:
     meta:
      server: 1
      workstation: 1
-     CIS_ID: 
-     - 5.5.4
+     CIS_ID: 5.5.4
 file:
   /etc/pam.d/common-session:
     title: 5.5.4 | L1 | Ensure default user umask is 027 or more restrictive | /etc/pam.d/common-session
     exists: true
     contains:
     - '/^session\s*optional\s*pam_umask.so/'
-    - '/^\s+umask\s0(2|7)(2|7)/'
-    - '!/^\s+umask\s[1-7][0-7][0-7]/'
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.4
+      CIS_ID: 5.5.4
   {{ end }}
 {{ end }}

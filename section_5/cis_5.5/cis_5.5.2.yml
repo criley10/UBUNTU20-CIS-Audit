@@ -10,8 +10,7 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.2
+      CIS_ID: 5.5.2
   secure_system_LK:
     title: 5.5.2 | L1 | Ensure system accounts are secured
     exec: "/awk -F: '$3<1000' /etc/passwd | egrep -wv 'root' | cut -d: -f1 | xargs -I '{}' passwd -S '{}' | egrep -cvw 'LK|L'/"
@@ -21,7 +20,6 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.2
+      CIS_ID: 5.5.2
   {{ end }}
 {{ end }}

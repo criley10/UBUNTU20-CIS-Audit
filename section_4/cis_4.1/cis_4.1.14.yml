@@ -10,8 +10,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.14
+      CIS_ID: 4.1.14
   auditd_admin_scope_live:
     title: 4.1.14 | L2 | Ensure changes to system administration scope (sudoers) is collected | Live
     exec: auditctl -l | grep scope
@@ -22,6 +21,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.14
+      CIS_ID: 4.1.14
 {{ end }}

@@ -6,16 +6,14 @@ kernel-param:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.9
+      CIS_ID: 3.3.9
   net.ipv6.conf.default.accept_ra:
     title: 3.3.9 | L1 | Ensure IPv6 router advertisements are not accepted  | ipv6 def router adverts
     value: '0'
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.9
+      CIS_ID: 3.3.9
 command:
   ipv6_all_rtr_adverts:
     title: 3.3.9 | L1 | Ensure IPv6 router advertisements are not accepted | ipv6 all router adverts conf
@@ -29,8 +27,7 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.9
+      CIS_ID: 3.3.9
   ipv6_def_rtr_adverts:
     title: 3.3.9 | L1 | Ensure IPv6 router advertisements are not accepted | ipv6 default router adverts conf
     exec: grep "net\.ipv6\.conf\.default\.accept_ra" /etc/sysctl.conf /etc/sysctl.d/*
@@ -43,6 +40,5 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.9
+      CIS_ID: 3.3.9
 {{ end }}

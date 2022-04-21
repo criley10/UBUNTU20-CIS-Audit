@@ -10,8 +10,7 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.5.4
+      CIS_ID: 1.5.4
   suid_dumpable_2:
     title: 1.5.4 | L1 | Ensure core dumps are restricted | sysctl.conf
     exit-status: 0
@@ -21,8 +20,7 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.5.4
+      CIS_ID: 1.5.4
 kernel-param:
   fs.suid_dumpable:
     title: 1.5.4 | L1 | Ensure core dumps are restricted | kernel_sysctl
@@ -30,8 +28,7 @@ kernel-param:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.5.4
+      CIS_ID: 1.5.4
 service:
   coredump:
     title: 1.5.4 | L1 | Ensure core dumps are restricted | coredump service
@@ -41,19 +38,17 @@ service:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.5.4
-file:
-  /etc/systemd/coredump.conf:
-    title: 1.5.4 | L1 | Ensure core dumps are restricted | coredump.conf
-    exists: true
-    contains:
-    - '/^Storage=none/'
-    - '/^ProcessSizeMax=0/'
-    meta:
-      server: 1
-      workstation: 1
-      CIS_ID: 
-      - 1.5.4
+      CIS_ID: 1.5.4
+# file:
+#   /etc/systemd/coredump.conf:
+#     title: 1.5.4 | L1 | Ensure core dumps are restricted | coredump.conf
+#     exists: true
+#     contains:
+#     - '/^Storage=none/'
+#     - '/^ProcessSizeMax=0/'
+#     meta:
+#       server: 1
+#       workstation: 1
+#       CIS_ID: 1.5.4
   {{ end }}
 {{ end }}

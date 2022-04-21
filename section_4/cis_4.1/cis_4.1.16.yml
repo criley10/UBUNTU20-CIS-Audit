@@ -12,8 +12,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.16
+      CIS_ID: 4.1.16
   auditd_admin_module_live:
     title: 4.1.16 | L2 | Ensure kernel module loading and unloading is collected | Live
     exec: auditctl -l | grep modules
@@ -26,6 +25,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.16
+      CIS_ID: 4.1.16
 {{ end }}

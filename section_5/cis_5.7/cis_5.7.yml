@@ -13,8 +13,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.7
+      CIS_ID: 5.7
   /etc/group:
     title: 5.7 | L1 | Ensure access to the su command is restricted | /etc/group
     exists: true
@@ -23,7 +22,6 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.7
+      CIS_ID: 5.7
   {{ end }}
 {{ end }}

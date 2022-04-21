@@ -12,7 +12,6 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.3.14
+      CIS_ID: 5.3.14
   {{ end }}
 {{ end }}

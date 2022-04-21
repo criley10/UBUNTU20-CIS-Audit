@@ -11,8 +11,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.1.2
+      CIS_ID: 5.5.1.2
 command:
   users_max_pw_expire:
     title: 5.5.1.2 | L1 | Ensure password expiration is 365 days or less | user_check
@@ -26,7 +25,6 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.1.2
+      CIS_ID: 5.5.1.2
   {{ end }}
 {{ end }}

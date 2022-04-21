@@ -9,8 +9,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.1.4
+      CIS_ID: 4.1.1.4
 file:
   /etc/default/grub:
     exists: true
@@ -21,6 +20,5 @@ file:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.1.4
+      CIS_ID: 4.1.1.4
 {{ end }}

@@ -10,7 +10,6 @@ exec:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.7.4
+      CIS_ID: 1.7.4
   {{ end }}
 {{ end }}

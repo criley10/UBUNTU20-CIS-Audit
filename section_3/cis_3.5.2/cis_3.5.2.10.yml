@@ -6,8 +6,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.5.2.10
+      CIS_ID: 3.5.2.10
 command:
   nft_rules:
     title: 3.5.2.10 | L1 | Ensure nftables rules are permanent | conf file exists
@@ -18,6 +17,5 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.5.2.10
+      CIS_ID: 3.5.2.10
 {{ end }}

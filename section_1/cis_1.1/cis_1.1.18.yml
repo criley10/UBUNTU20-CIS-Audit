@@ -10,8 +10,7 @@ mount:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.1.17
+      CIS_ID: 1.1.17
     {{ end }}
   {{ end }}
 {{ end }}

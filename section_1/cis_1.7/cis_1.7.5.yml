@@ -10,7 +10,6 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.7.5
+      CIS_ID: 1.7.5
   {{ end }}
 {{ end }}

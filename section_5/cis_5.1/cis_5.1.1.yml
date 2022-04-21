@@ -7,8 +7,7 @@ package:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.1.1
+      CIS_ID: 5.1.1
 service:
   cron:
     title: 5.1.1 | L1 | Ensure cron daemon is enabled and running | service
@@ -17,8 +16,7 @@ service:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.1.1
+      CIS_ID: 5.1.1
   {{ end }}
 {{ end }}
 

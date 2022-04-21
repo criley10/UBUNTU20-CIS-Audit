@@ -6,8 +6,7 @@ kernel-param:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.5
+      CIS_ID: 3.3.5
 command:
   ipv4_ignore_icmp_broadcast:
     title: 3.3.5 | L1 | Ensure broadcast ICMP requests are ignored | ipv4 ignore broadcast icmp conf
@@ -21,6 +20,5 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.3.5
+      CIS_ID: 3.3.5
 {{ end }}

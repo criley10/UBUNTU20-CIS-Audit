@@ -7,8 +7,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.1.8
+      CIS_ID: 5.1.8
   /etc/cron.allow:
     title: 5.1.8 | L1 | Ensure cron is restricted to authorized users
     exists: true
@@ -18,7 +17,6 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.1.8
+      CIS_ID: 5.1.8
   {{ end }}
 {{ end }}

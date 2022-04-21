@@ -10,8 +10,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.6.1.2
+      CIS_ID: 1.6.1.2
   /etc/default/grub:
     title: 1.6.1.2 | L1 | Ensure AppArmor is enabled in the bootloader configuration | running grub
     exists: true
@@ -22,6 +21,5 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 1.6.1.2
+      CIS_ID: 1.6.1.2
 {{ end }}

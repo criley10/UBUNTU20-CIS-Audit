@@ -7,6 +7,5 @@ service:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.5.2.9
+      CIS_ID: 3.5.2.9
 {{ end }}

@@ -9,8 +9,7 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 4.4
+      CIS_ID: 4.4
 file:
   /etc/logrotate.conf:
     title: 4.4 | L1 | Ensure logrotate assigns appropriate permissions | default
@@ -21,6 +20,5 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 4.4
+      CIS_ID: 4.4
 {{ end }}

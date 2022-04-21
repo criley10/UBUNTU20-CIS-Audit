@@ -6,14 +6,12 @@ package:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.5.3.1.1
+      CIS_ID: 3.5.3.1.1
   iptables-persistent:
     title: 3.5.3.1.1 | L1 | Ensure iptables packages are installed | iptables-persistent pkg
     installed: true
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 3.5.3.1.1
+      CIS_ID: 3.5.3.1.1
 {{ end }}

@@ -10,8 +10,7 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.1.4
+      CIS_ID: 5.5.1.4
   inactive_users:  
     title: 5.5.1.4 | L1 | Ensure inactive password lock is 30 days or less | users
     exec: 'grep -E ^[^:]+:[^\!*] /etc/shadow | grep -vw root | cut -d : -f1,7'
@@ -21,7 +20,6 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.5.1.4
+      CIS_ID: 5.5.1.4
   {{ end }}
 {{ end }}

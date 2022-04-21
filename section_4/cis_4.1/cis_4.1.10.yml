@@ -12,8 +12,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.10
+      CIS_ID: 4.1.10
   auditd_access_live:
     title: 4.1.10 | L2 |Ensure unsuccessful unauthorized file access attempts are collected | Live
     exec: auditctl -l | grep access
@@ -26,6 +25,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.10
+      CIS_ID: 4.1.10
 {{ end }}

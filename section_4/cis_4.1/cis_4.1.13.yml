@@ -10,8 +10,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.13
+      CIS_ID: 4.1.13
   auditd_delete_live:
     title: 4.1.13 | L2 | Ensure file deletion events by users are collected | Live
     exec: auditctl -l | grep delete
@@ -22,6 +21,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.13
+      CIS_ID: 4.1.13
 {{ end }}

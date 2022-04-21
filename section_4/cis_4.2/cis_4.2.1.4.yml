@@ -8,8 +8,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 4.2.1.4
+      CIS_ID: 4.2.1.4
 command:
   rsyslog_d_perms:
     title: 4.2.1.4 | L1 | Ensure rsyslog default file permissions configured | conf.d files
@@ -24,6 +23,5 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 4.2.1.4
+      CIS_ID: 4.2.1.4
 {{ end }}

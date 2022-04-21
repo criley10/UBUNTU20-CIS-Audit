@@ -10,8 +10,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.15
+      CIS_ID: 4.1.15
   auditd_sudolog_live:
     title: 4.1.15 | L2 | Ensure system administrator command executions (sudo) are collected | Live
     exec: auditctl -l | grep actions
@@ -22,6 +21,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.15
+      CIS_ID: 4.1.15
 {{ end }}

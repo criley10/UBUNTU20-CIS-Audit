@@ -10,8 +10,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.3.18
+      CIS_ID: 5.3.18
 command:
   ssh_config_banner:
     title: 5.3.18 | L1 | Ensure SSH warning banner configured | conf.d banner settings
@@ -26,7 +25,6 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.3.18
+      CIS_ID: 5.3.18
   {{ end }}
 {{ end }}

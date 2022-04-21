@@ -11,8 +11,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.7
+      CIS_ID: 4.1.7
   auditd_logins_live:
     title: 4.1.7 | L2 | Ensure login and logout events are collected | Live
     exec: auditctl -l | grep logins
@@ -24,6 +23,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.7
+      CIS_ID: 4.1.7
 {{ end }}

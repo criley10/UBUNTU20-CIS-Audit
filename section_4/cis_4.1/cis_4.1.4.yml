@@ -13,8 +13,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.4
+      CIS_ID: 4.1.4
   auditd_identity_live:
     title: 4.1.4 | L2 | Ensure events that modify user/group information are collected | Live
     exec: auditctl -l | grep identity
@@ -28,6 +27,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.4
+      CIS_ID: 4.1.4
 {{ end }}

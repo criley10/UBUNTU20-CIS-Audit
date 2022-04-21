@@ -8,8 +8,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID:
-      - 3.4.1
+      CIS_ID: 3.4.1
   lsmod_dccp:
     title: 3.4.1 | L2 | Ensure DCCP is disabled | running dccp
     exit-status: 0
@@ -19,6 +18,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID:
-      - 3.4.1
+      CIS_ID: 3.4.1
 {{ end }}

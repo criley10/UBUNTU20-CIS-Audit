@@ -7,8 +7,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.1.9
+      CIS_ID: 5.1.9
   /etc/at.allow:
     title: 5.1.9 | L1 | Ensure at is restricted to authorized users
     exists: true
@@ -18,7 +17,6 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.1.9
+      CIS_ID: 5.1.9
   {{ end }}
 {{ end }}

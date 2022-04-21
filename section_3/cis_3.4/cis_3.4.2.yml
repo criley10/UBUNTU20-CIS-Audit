@@ -8,8 +8,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID:
-      - 3.4.2
+      CIS_ID: 3.4.2
   lsmod_sctp:
     title: 3.4.2 | L2 | Ensure SCTP is disabled | running sctp
     exit-status: 0
@@ -19,6 +18,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID:
-      - 3.4.2
+      CIS_ID: 3.4.2
 {{ end }}

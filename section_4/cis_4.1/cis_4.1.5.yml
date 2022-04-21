@@ -14,8 +14,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.5
+      CIS_ID: 4.1.5
   auditd_locale_live:
     title: 4.1.5 | L2 | Ensure events that modify the system's network environment are collected | Live
     exec: auditctl -l | grep system-locale
@@ -30,6 +29,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.5
+      CIS_ID: 4.1.5
 {{ end }}

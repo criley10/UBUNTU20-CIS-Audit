@@ -9,6 +9,5 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID:
-      - 6.2.15
+      CIS_ID: 6.2.15
 {{ end }}

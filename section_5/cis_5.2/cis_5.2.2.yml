@@ -9,8 +9,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.2.2
+      CIS_ID: 5.2.2
 command:
   pty_sudoers_d:
     title: 5.2.2 | L1 | Ensure sudo commands use pty | sudoers.d
@@ -21,7 +20,6 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.2.2
+      CIS_ID: 5.2.2
   {{ end }}
 {{ end }}

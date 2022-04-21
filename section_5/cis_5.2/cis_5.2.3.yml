@@ -9,8 +9,7 @@ file:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.2.3
+      CIS_ID: 5.2.3
 command:
   log_sudoers_d: 
     title: 5.2.3 | L1 | Ensure sudo log file exists | sudoers.d
@@ -22,7 +21,6 @@ command:
     meta:
       server: 1
       workstation: 1
-      CIS_ID: 
-      - 5.2.3
+      CIS_ID: 5.2.3
   {{ end }}
 {{ end }}

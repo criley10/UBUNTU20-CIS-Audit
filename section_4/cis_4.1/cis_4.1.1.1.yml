@@ -6,14 +6,12 @@ package:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.1.1
+      CIS_ID: 4.1.1.1
   audispd-plugins:
     title: 4.1.1.1 | L2 | Ensure auditd is installed | audispd-plugins pkg
     installed: true
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.1.1
+      CIS_ID: 4.1.1.1
 {{ end }}

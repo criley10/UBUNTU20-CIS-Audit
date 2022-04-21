@@ -10,8 +10,7 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.12
+      CIS_ID: 4.1.12
   auditd_mounts_live:
     title: 4.1.12 | L2 | Ensure successful file system mounts are collected | Live
     exec: auditctl -l | grep mounts
@@ -22,6 +21,5 @@ command:
     meta:
       server: 2
       workstation: 2
-      CIS_ID: 
-      - 4.1.12
+      CIS_ID: 4.1.12
 {{ end }}
