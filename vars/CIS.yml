@@ -329,7 +329,7 @@ ubuntu20_warning_banner: Authorized uses only. All activity may be monitored and
 
 # Section 2
 # Time sync - can be timesync or chriny or ntp
-ubuntu20cis_time_service: chrony
+ubuntu20cis_time_service: ntp
 ubuntu20cis_ntp_servers:
 ubuntu20cis_ntp_fallback:
 ubuntu20cis_ntp_root_distance:
@@ -407,10 +407,10 @@ ubuntu20cis_auditd:
   action_mail_acct: root
   admin_space_left_action: halt
   max_log_file_action: keep_logs
-  auditd_backlog_limit: 2048
+  auditd_backlog_limit: 8192
 
 ## syslog
-ubuntu20cis_is_syslog_server: false
+ubuntu20cis_is_syslog_server: true
 ### Section 5
 ubuntu20cis_sshd_limited: false
 # Note the following to understand precedence and layout
