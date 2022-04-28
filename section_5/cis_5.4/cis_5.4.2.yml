@@ -1,7 +1,7 @@
 {{ if .Vars.ubuntu20cis_level_1 }}
   {{ if .Vars.ubuntu20cis_rule_5_4_2 }}
 file:
-  /etc/pam.d/common-auth:
+  /etc/pam.d/common-account:
     title: 5.4.2 | L1 | Ensure lockout for failed password attempts is configured
     exists: true
     contains:
