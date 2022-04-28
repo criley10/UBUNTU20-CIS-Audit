@@ -6,7 +6,7 @@ file:
     exists: true
     contains:
     - '/^account\s*requisite\s*deny.so/'
-    - '/^account\s*required\s*pam_tally2.so/'
+    - '/^account\s*required\s*pam_tally.so/'
     meta:
       server: 1
       workstation: 1
